@@ -1,0 +1,15 @@
+<title> JSON from XHR - Javacript - dcode</title>
+
+
+<body> 
+    <h2 id = "title">JSON from XHR - Javacript - dcode</h2>
+    <script type = "text/javascript">
+        const xhr = new XMLHttpRequest();
+        xhr.onload = function () {
+            console.log (this)
+        }
+
+        xhr.open('GET', 'data.json')
+        xhr.send()
+    </script>
+</body>
